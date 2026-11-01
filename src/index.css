@@ -1,0 +1,34 @@
+
+/* GLOBAL RESET */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #0b1020;
+  color: #e8edf7;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+button,
+textarea {
+  font: inherit;
+}
+
+button {
+  transition: 0.2s ease;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
